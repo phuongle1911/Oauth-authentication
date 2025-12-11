@@ -56,7 +56,7 @@ This will automatically download and install all the necessary packages and crea
 --------------------------
 #### 5 - Environment Configuration
 Database connection and authentification requires environment variables configuration. 
-In Backend folder, create a file named '.env' in the project root directory. Next, copy Client ID and Client Secret obtained from Google Cloud Console to the file, and include other information as below example:
+In "backend" folder, replace '.env-example' file with '.env' in the project root directory. Next, copy Client ID and Client Secret obtained from Google Cloud Console to the file, and include other information as the example:
 
     CLIENT_ID = XXXXXXXXXXXX.apps.googleusercontent.com
     CLIENT_SECRET = XXXXXXXXXXXXXXXXXXXXXX
